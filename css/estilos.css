@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+
+body{
+	background-color: #F5F5F5;
+	font-family: 'Nunito', sans-serif;
+}
+
+.carousel-item{
+	height: 100vh;
+	background: no-repeat center center scroll;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+.carousel-caption{
+	bottom: 220px;
+}
+
+.carousel-caption h5{
+	font-size:45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+
+.carousel-caption p{
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+
+}
+
+p span{
+    display: block;
+}
+
+.carousel-caption a{
+	text-transform: uppercase;
+	background: #262626;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+
+}
+
+.navbar-nav a{
+	font-size: 18px;
+	
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: #333;
+	
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color:#b3b3b3;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding: .2rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #333;
+	background-color: #FFF;
+}
+
+
+.w-100{
+	height: 100vh;
+}
+
+.carousel-caption{
+ background:rgba(0,0,0,0.5);
+ }
+
+ #contactobanner{
+ 	padding-left: 25vh;
+ }
+
+/*Destacadas */
+ #destacadaindependencia{
+ 	background:url("https://ucarecdn.com/b8f2ba88-26bd-40a4-a136-931469ce9cba/12_activahipodromojunio.png");
+ }
+
+ #destacadaquilpue{
+ 	background:url("https://ucarecdn.com/6023d6c4-3e2d-45b5-9cd9-1beb57e43b1d/19_violetasmaestra1_0003__mg_07071024x709.jpg");	
+ }
+
+ #destacadalaflorida{
+ 	background: url("https://ucarecdn.com/7230dc6c-5b38-4a33-8af5-352ac2947195/homefotos305.jpg");
+ }
+
+ #destacadalaserena{
+ 	background:url("https://ucarecdn.com/6023d6c4-3e2d-45b5-9cd9-1beb57e43b1d/19_violetasmaestra1_0003__mg_07071024x709.jpg");	
+ }
+
+#destacadapenalolen{
+	background: url("https://ucarecdn.com/817ccc8d-ffb7-4720-ab6d-761bbb98be13/15_th_las_pircas_6.jpeg");
+}
+
+#destacadarecoleta{
+	background: url("https://ucarecdn.com/518e6d09-8803-4546-a8cf-855c1a17d7d8/3_entre_cerro1559599078s.jpg");
+}
+#destacadavalparaiso{
+	background:url("https://ucarecdn.com/5492adcd-7805-4107-85d0-9aaf8e2c9122/1.jpeg");
+}
+
+
+
+
+
+ /*Fin destacadas*/
+
+
+.breadcrumb{
+	background-color: #F5F5F5;
+	margin-bottom: 0rem;
+}
+
+ .jumbotron{
+ border-radius: 10px; 	
+ }
+ .ciudades{
+ 	border-radius: 10px;
+ }
+
+ #individualmain{
+ 	border-radius: 10px;
+ }
+
+ #tipoaccion{
+ 	color: #8f8f8f;
+ }
+
+ #medidas i, h6{
+ 	color: #707070;
+ }
+
+ .transparencia{
+ 	background:rgba(0,0,0,0.5);
+ 	border-radius: 10px;
+ 	color: #FFF;
+ }
+
+a:link, a:visited, a:active{
+text-decoration:none;
+}
+
+.item img{
+    height:200px;
+    width:100%;
+}
+
+.titulo{
+	color: #4a4a4a;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+}
+
+.titulolist{
+	color: #4a4a4a;
+	font-weight: bold;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+}
+
+.badge,.badge-primary, .badge-pill{
+background-color: blue;
+font-size: 8px;
+}
+
+.item{
+	background-color: #FFF;
+	text-align: left;
+}
+
+.item h4, small{
+	color:#3B3B3B;
+
+
+}
+
+.item i{
+	color:#8C8C8C;
+	padding-right: 10%;
+	padding-left: 1%;
+
+}
+
+#direccion{
+	color: #8C8C8C;
+}
+
+.card-title{
+	color: #8C8C8C;
+	background-color:#FFF; 
+	/*writing-mode: vertical-rl;
+	text-orientation: upright;*/
+	font-size: 16px;
+}
+
+.card{
+	background-color: #FFF;
+	text-align: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) , only screen and (max-device-width: 700px) {
+
+
+.carousel-item{
+	height: 100vh;
+	background: no-repeat center center scroll;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+.carousel-caption{
+padding-top: 30vh;
+}
+
+
+.card-title{
+	color: #8C8C8C;
+	background-color:#FFF; 
+	writing-mode: horizontal-tb;
+	font-size: 14px;
+}
+
+
+}
