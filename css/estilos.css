@@ -13,6 +13,11 @@ body{
 	background-size: cover;
 }
 
+#cont img, iframe {
+    max-width: 100%;
+    height: auto !important;
+}
+
 .carousel-caption{
 	bottom: 220px;
 }
@@ -53,6 +58,12 @@ p span{
 	letter-spacing: 2px;
 }
 
+#bannerdescripcion{
+	color: #FFF;
+	text-align: justify;
+	font-size: small;
+
+}
 
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-nav .nav-link.active,
@@ -91,43 +102,10 @@ p span{
  	padding-left: 25vh;
  }
 
-/*Destacadas */
- #destacadaindependencia{
- 	background:url("https://ucarecdn.com/b8f2ba88-26bd-40a4-a136-931469ce9cba/12_activahipodromojunio.png");
- }
-
- #destacadaquilpue{
- 	background:url("https://ucarecdn.com/6023d6c4-3e2d-45b5-9cd9-1beb57e43b1d/19_violetasmaestra1_0003__mg_07071024x709.jpg");	
- }
-
- #destacadalaflorida{
- 	background: url("https://ucarecdn.com/7230dc6c-5b38-4a33-8af5-352ac2947195/homefotos305.jpg");
- }
-
- #destacadalaserena{
- 	background:url("https://ucarecdn.com/6023d6c4-3e2d-45b5-9cd9-1beb57e43b1d/19_violetasmaestra1_0003__mg_07071024x709.jpg");	
- }
-
-#destacadapenalolen{
-	background: url("https://ucarecdn.com/817ccc8d-ffb7-4720-ab6d-761bbb98be13/15_th_las_pircas_6.jpeg");
-}
-
-#destacadarecoleta{
-	background: url("https://ucarecdn.com/518e6d09-8803-4546-a8cf-855c1a17d7d8/3_entre_cerro1559599078s.jpg");
-}
-#destacadavalparaiso{
-	background:url("https://ucarecdn.com/5492adcd-7805-4107-85d0-9aaf8e2c9122/1.jpeg");
-}
-
-#destacadamiami{
-	background:url("https://ucarecdn.com/31d02c7e-a7d2-48bc-a4d1-7afd3bed359d/8_imagen115603646548.jpg");
-}
 
 
 
 
-
- /*Fin destacadas*/
 
 
 .breadcrumb{
