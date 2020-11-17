@@ -126,7 +126,7 @@ header("Location: login.php");
   <a href="post.php" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="far fa-sticky-note"></i><small class="text-uppercase font-weight-bold"></small></a>
  
    <!--Home-->
-  <a href="index.html" type="button" class="btn btn-light bg-light rounded-pill shadow-sm px-4 mb-4"><i class="fas fa-home"></i><small class="text-uppercase font-weight-bold"></small></a>
+  <a href="index.php" type="button" class="btn btn-light bg-light rounded-pill shadow-sm px-4 mb-4"><i class="fas fa-home"></i><small class="text-uppercase font-weight-bold"></small></a>
 
 
   <!--Cerrar sesion-->

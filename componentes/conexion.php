@@ -1,3 +1,4 @@
+
 <?php
 
 if(!isset($_SESSION)) 
@@ -8,11 +9,19 @@ if(!isset($_SESSION))
 }
     
 $conn = mysqli_connect(
-'186.64.118.155',
+'localhost',
 'cantera1_sebarocca',
 'Tecladoymouse1511',
 'cantera1_roccamatte'
 );
+/*
+$conn = mysqli_connect(
+'localhost',
+'root',
+'',
+'roccamatte'
+);*/
+
 
 // checamos la conexion
 if (mysqli_connect_errno())
