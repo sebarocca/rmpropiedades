@@ -2,7 +2,9 @@
 
 include("../../componentes/conexion.php");
 
-$sql= "SELECT Pr.id_propiedad, Pr.precio, Pr.id_post, Pr.cant_m2, Pr.cant_banos, Pr.cant_dormitorios, Pr.descripcion, Pr.url_foto1,Pr.url_foto2,Pr.url_foto3,Pr.url_foto4,Pr.url_foto5,Pr.url_foto6,Pr.url_foto7,Pr.url_foto8, Lo.nombre_localidad, Pr.url_detalle, Pr.url_detalle2, Vi.tipo_vivienda, Mo.tipo_moneda, Op.tipo_operacion, Po.contenido FROM propiedad Pr 
+
+$sql= "SELECT Pr.id_propiedad, Pr.precio, Pr.id_post, Pr.cant_m2, Pr.cant_banos, Pr.cant_dormitorios, Pr.descripcion, Pr.url_foto1,Pr.url_foto2,Pr.url_foto3,Pr.url_foto4,Pr.url_foto5,Pr.url_foto6,Pr.url_foto7,Pr.url_foto8,Pr.url_foto9,Pr.url_foto10,Pr.url_foto11,Pr.url_foto12,Pr.url_foto13,Pr.url_foto14,Pr.url_foto15, Lo.nombre_localidad, Pr.url_detalle, Pr.url_detalle2, Vi.tipo_vivienda, Mo.tipo_moneda, Op.tipo_operacion, Po.contenido FROM propiedad Pr 
+
 
 INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad 
 INNER JOIN vivienda Vi ON Pr.id_tipo_vivienda = Vi.id_tipo_vivienda 
@@ -51,6 +53,14 @@ include ("../../componentes/header_l.php");
   <a href="6.jpg"><img src="<?php echo $row['url_foto6'];?>" width="144" height="96"></a>
   <a href="7.jpg"><img src="<?php echo $row['url_foto7'];?>" width="144" height="96"></a>
   <a href="8.jpg"><img src="<?php echo $row['url_foto8'];?>" width="144" height="96"></a>
+  <a href="9.jpg"><img src="<?php echo $row['url_foto9'];?>" width="144" height="96"></a>
+  <a href="10.jpg"><img src="<?php echo $row['url_foto10'];?>" width="144" height="96"></a>
+  <a href="11.jpg"><img src="<?php echo $row['url_foto11'];?>" width="144" height="96"></a>
+  <a href="12.jpg"><img src="<?php echo $row['url_foto12'];?>" width="144" height="96"></a>
+  <a href="13.jpg"><img src="<?php echo $row['url_foto13'];?>" width="144" height="96"></a>
+  <a href="15.jpg"><img src="<?php echo $row['url_foto14'];?>" width="144" height="96"></a>
+  <a href="15.jpg"><img src="<?php echo $row['url_foto15'];?>" width="144" height="96"></a>
+
 
 
 </div>

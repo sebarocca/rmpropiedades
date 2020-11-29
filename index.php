@@ -69,14 +69,27 @@ include("componentes/conexion.php");
 
  <?php 
 
-    $query = "SELECT * FROM Localidad";
+
+    $query = "SELECT * FROM localidad";
     $result = mysqli_query($conn, $query);
 
-    while ($valores = mysqli_fetch_array($result)) {
-    echo '<a class="dropdown-item"  href="l/'.$valores['url_localidad'].'"> '.$valores['nombre_localidad'].' </a>';
+    while ($valores = mysqli_fetch_array($result)) { ?>
 
+  <!--  echo '<a class="dropdown-item"  href="l/'.$valores['url_localidad'].'"> '.$valores['nombre_localidad'].' </a>'; -->
+
+<a class="dropdown-item" href="l/<?php echo $valores['url_localidad'] ?>">
+  <?php  
+  echo $valores['nombre_localidad']
+?>
+</a>
+
+
+<?php
 }
-     ?>
+?>
+
+  
+
 
 
 
@@ -85,7 +98,18 @@ include("componentes/conexion.php");
 
       </li>
       <li class="nav-item ml-lg-5">
-        <a href="login.php"><i class="fas fa-2x fa-sign-in-alt"></i></a>
+
+<a href="login.php">
+<div class="slide-out-button">
+  <i class="fa fa-lock" aria-hidden="true"></i>
+  <div class="slide-out-title">Ingresar</div>
+</div>
+</a>
+      
+
+
+        <!--<a href="login.php"><i class="fas fa-2x fa-sign-in-alt"></i></a>-->
+
       </li>   
 
 

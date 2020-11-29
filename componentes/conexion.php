@@ -8,19 +8,22 @@ if(!isset($_SESSION))
 
 }
     
-$conn = mysqli_connect(
+
+/*$conn = mysqli_connect(
 'localhost',
 'cantera1_sebarocca',
 'Tecladoymouse1511',
 'cantera1_roccamatte'
 );
-/*
+*/
+
 $conn = mysqli_connect(
 'localhost',
 'root',
 '',
 'roccamatte'
-);*/
+);
+
 
 
 // checamos la conexion

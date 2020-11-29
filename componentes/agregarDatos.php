@@ -22,6 +22,13 @@ $f5=$_POST['url_foto5'];
 $f6=$_POST['url_foto6'];
 $f7=$_POST['url_foto7'];
 $f8=$_POST['url_foto8'];
+$f9=$_POST['url_foto9'];
+$f10=$_POST['url_foto10'];
+$f11=$_POST['url_foto11'];
+$f12=$_POST['url_foto12'];
+$f13=$_POST['url_foto13'];
+$f14=$_POST['url_foto14'];
+$f15=$_POST['url_foto15'];
 $detalle1=$_POST['url_detalle'];
 $detalle2=$_POST['url_detalle2'];
 $id_post=$_POST['id_post'];
@@ -42,7 +49,8 @@ cant_m2,
 cant_banos,
 cant_dormitorios,
 descripcion,
-url_foto1,url_foto2,url_foto3,url_foto4,url_foto5,url_foto6,url_foto7,url_foto8,
+url_foto1,url_foto2,url_foto3,url_foto4,url_foto5,url_foto6,url_foto7,url_foto8,url_foto9,url_foto10,url_foto11,
+url_foto12,url_foto13,url_foto14,url_foto15,
 url_detalle,
 url_detalle2, id_post, url_propiedad)
 
@@ -56,7 +64,7 @@ values('$propiedad',
 '$banos',
 '$dormitorios',
 '$descripcion',
-'$f1','$f2','$f3','$f4','$f5','$f6','$f7','$f8',
+'$f1','$f2','$f3','$f4','$f5','$f6','$f7','$f8','$f9','$f10','$f11','$f12','$f13','$f14','$f15',
 '$detalle1',
 '$detalle2','$id_post','$url_propiedad')";
 

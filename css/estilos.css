@@ -201,8 +201,78 @@ font-size: 8px;
 }
 
 
+/*Login button */
+.slide-out-button {
+  position: fixed;
+  top: 20px;
+  right: 0;
+  z-index: 1;
+  max-width: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 4px 0 0 4px;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slide-out-button i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35px;
+  height: 50px;
+  color: #FFF;
+  padding: 9px 0px 0px 15px;
+  font-size: 30px;
+  border-radius: 5px 0 0 5
+}
+
+.slide-out-button i,
+.slide-out-button.slide-in i {
+  background: #202341;
+}
+
+.slide-out-button i,
+.slide-out-button .slide-out-title {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.slide-out-button .slide-out-title {
+  display: block;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0);
+  line-height: 50px;
+  padding: 0 30px 0 65px;
+  white-space: nowrap;
+  background: #202341;
+}
+
+.slide-out-button:hover,
+.slide-out-button.slide-in {
+  max-width: 300px;
+}
+
+.slide-out-button:hover .slide-out-title,
+.slide-out-button.slide-in .slide-out-title {
+  color: #F5F5F5;
+}
 
 
+/* */
 
 
 

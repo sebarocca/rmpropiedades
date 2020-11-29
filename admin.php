@@ -130,7 +130,8 @@ include("componentes/headeradmin.php");
         <input type="text" name="cant_dormitorios" class="form-control input-sm">
         <label>Descripcion</label>
         <input type="text" name="descripcion" class="form-control input-sm">
-        <label>Link foto 1</label>
+
+        <label>Foto principal (Portada)</label>
         <input type="text" name="url_foto1" class="form-control input-sm">
         <label>Link foto 2</label>
         <input type="text" name="url_foto2" class="form-control input-sm"> 
@@ -145,7 +146,22 @@ include("componentes/headeradmin.php");
         <label>Link foto 7</label>
         <input type="text" name="url_foto7" class="form-control input-sm"> 
         <label>Link foto 8</label>
-        <input type="text" name="url_foto8" class="form-control input-sm"> 
+        <input type="text" name="url_foto8" class="form-control input-sm">
+        <label>Link foto 9</label>
+        <input type="text" name="url_foto9" class="form-control input-sm"> 
+        <label>Link foto 10</label>
+        <input type="text" name="url_foto10" class="form-control input-sm"> 
+        <label>Link foto 11</label>
+        <input type="text" name="url_foto11" class="form-control input-sm"> 
+        <label>Link foto 12</label>
+        <input type="text" name="url_foto12" class="form-control input-sm"> 
+        <label>Link foto 13</label>
+        <input type="text" name="url_foto13" class="form-control input-sm"> 
+        <label>Link foto 14</label>
+        <input type="text" name="url_foto14" class="form-control input-sm">
+        <label>Link foto 15</label>
+        <input type="text" name="url_foto15" class="form-control input-sm">                                                           
+
         
                                                       
         <label>URL detalle 1</label>

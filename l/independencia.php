@@ -28,7 +28,8 @@ include ("../componentes/lista_ciudades_c.php");
 
 echo '<div class="col-lg-10 mt-2">';
 echo '<div class="container titulo mt-4"><h6 class="">Destacada en '.$valores['nombre_localidad'].'</h6>';
-echo'<div class="jumbotron jumbotron-fluid" style="background:url('.$valores['url_foto1'].') ">';
+
+echo'<div class="jumbotron jumbotron-fluid" style="background:url('.$valores['url_foto1'].');">';
 echo' <div class="container">';
 echo' <div class="row transparencia">';
 echo'<div class="col-lg-5  ml-2">';
@@ -68,7 +69,8 @@ FROM propiedad Pr
 INNER JOIN vivienda Vi ON Pr.id_tipo_vivienda = Vi.id_tipo_vivienda 
 INNER JOIN operacion Op ON Pr.id_tipo_operacion = Op.id_operacion
 INNER JOIN moneda Mo ON Pr.id_tipo_moneda = Mo.id_moneda
-INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad where pr.id_localidad = 1";
+INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad where Pr.id_localidad = 1";
+
 $result = mysqli_query($conn, $query);
 
     while ($valores = mysqli_fetch_array($result)) {

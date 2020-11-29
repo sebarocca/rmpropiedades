@@ -30,6 +30,13 @@ $f5= $row['url_foto5'];
 $f6= $row['url_foto6'];
 $f7= $row['url_foto7'];
 $f8= $row['url_foto8'];
+$f9= $row['url_foto9'];
+$f10= $row['url_foto10'];
+$f11= $row['url_foto11'];
+$f12= $row['url_foto12'];
+$f13= $row['url_foto13'];
+$f14= $row['url_foto14'];
+$f15= $row['url_foto15'];
 $detalle1= $row['url_detalle'];
 $detalle2= $row['url_detalle2'];
 $id_post=$row['id_post'];
@@ -60,6 +67,13 @@ $f5=$_POST['url_foto5'];
 $f6=$_POST['url_foto6'];
 $f7=$_POST['url_foto7'];
 $f8=$_POST['url_foto8'];
+$f9=$_POST['url_foto9'];
+$f10=$_POST['url_foto10'];
+$f11=$_POST['url_foto11'];
+$f12=$_POST['url_foto12'];
+$f13=$_POST['url_foto13'];
+$f14=$_POST['url_foto14'];
+$f15=$_POST['url_foto15'];
 $detalle1=$_POST['url_detalle'];
 $detalle2=$_POST['url_detalle2'];
 $id_post=$_POST['id_post'];
@@ -83,6 +97,13 @@ url_foto5 = '$f5',
 url_foto6 = '$f6',
 url_foto7 = '$f7',
 url_foto8 = '$f8',
+url_foto9 = '$f9',
+url_foto10 = '$f10',
+url_foto11 = '$f11',
+url_foto12 = '$f12',
+url_foto13 = '$f13',
+url_foto14 = '$f14',
+url_foto15 = '$f15',
 url_detalle = '$detalle1',
 url_detalle2 = '$detalle2',
 id_post = '$id_post',
@@ -234,7 +255,8 @@ $_SESSION['message_type'] = 'success';
         
 
 
-        <label>Link foto 1</label>
+
+        <label>Foto principal (Portada)</label>
         <input type="text" name="url_foto1" required value="<?php echo $f1; ?>" class="form-control form-control-sm input-sm">
         <label>Link foto 2</label>
         <input type="text" name="url_foto2" required value="<?php echo $f2; ?>" class="form-control form-control-sm input-sm"> 
@@ -249,9 +271,25 @@ $_SESSION['message_type'] = 'success';
         <label>Link foto 7</label>
         <input type="text" name="url_foto7" value="<?php echo $f7; ?>" class="form-control form-control-sm input-sm"> 
         <label>Link foto 8</label>
-        <input type="text" name="url_foto8" value="<?php echo $f8; ?>" class="form-control form-control-sm input-sm"> 
-        
-        
+        <input type="text" name="url_foto8" value="<?php echo $f8; ?>" class="form-control form-control-sm input-sm">
+        <label>Link foto 9</label>
+        <input type="text" name="url_foto9" value="<?php echo $f9; ?>" class="form-control form-control-sm input-sm">
+        <label>Link foto 10</label>
+        <input type="text" name="url_foto10" value="<?php echo $f10; ?>" class="form-control form-control-sm input-sm">
+        <label>Link foto 11</label>
+        <input type="text" name="url_foto11" value="<?php echo $f11; ?>" class="form-control form-control-sm input-sm">   
+        <label>Link foto 12</label>
+        <input type="text" name="url_foto12" value="<?php echo $f12; ?>" class="form-control form-control-sm input-sm"> 
+        <label>Link foto 13</label>
+        <input type="text" name="url_foto13" value="<?php echo $f13; ?>" class="form-control form-control-sm input-sm">
+        <label>Link foto 14</label>
+        <input type="text" name="url_foto14" value="<?php echo $f14; ?>" class="form-control form-control-sm input-sm">
+        <label>Link foto 15</label>
+        <input type="text" name="url_foto15" value="<?php echo $f15; ?>" class="form-control form-control-sm input-sm">
+
+
+
+
 
         <label>URL detalle 1</label>
         <input type="text" name="url_detalle" value="<?php echo $detalle1;?>" class="form-control form-control-sm input-sm">                          
@@ -278,7 +316,9 @@ $_SESSION['message_type'] = 'success';
 <!--fin idpost -->
 
  <label>URL propiedad</label>
- <input type="text" disabled="" name="url_propiedad" value="<?php echo $url_propiedad;?>" class="form-control form-control-sm input-sm"> 
+
+ <input type="text"  name="url_propiedad" value="<?php echo $url_propiedad;?>" class="form-control form-control-sm input-sm"> 
+
 
 
 

@@ -65,7 +65,8 @@ FROM propiedad Pr
 INNER JOIN vivienda Vi ON Pr.id_tipo_vivienda = Vi.id_tipo_vivienda 
 INNER JOIN operacion Op ON Pr.id_tipo_operacion = Op.id_operacion
 INNER JOIN moneda Mo ON Pr.id_tipo_moneda = Mo.id_moneda
-INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad where pr.id_localidad = 3";
+INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad where Pr.id_localidad = 3";
+
 $result = mysqli_query($conn, $query);
 
     while ($valores = mysqli_fetch_array($result)) {

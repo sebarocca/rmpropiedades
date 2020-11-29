@@ -5,6 +5,8 @@ include("../componentes/conexion.php");
 <html lang="es">
   <head>
     <!-- Required meta tags -->
+
+    <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' >
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -73,7 +75,8 @@ include("../componentes/conexion.php");
 
  <?php 
 
-    $query = "SELECT * FROM Localidad";
+
+    $query = "SELECT * FROM localidad";
     $result = mysqli_query($conn, $query);
 
     while ($valores = mysqli_fetch_array($result)) {
@@ -89,7 +92,14 @@ include("../componentes/conexion.php");
 
       </li>
       <li class="nav-item ml-lg-5">
-        <a href="../login.php"><i class="fas fa-2x fa-sign-in-alt"></i></a>
+
+  <a href="../login.php">
+<div class="slide-out-button">
+  <i class="fa fa-lock" aria-hidden="true"></i>
+  <div class="slide-out-title">Ingresar</div>
+</div>
+</a>
+
       </li>   
      
 
