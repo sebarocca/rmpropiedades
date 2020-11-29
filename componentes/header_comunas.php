@@ -74,7 +74,7 @@ include("../componentes/conexion.php");
 
  <?php 
 
-    $query = "SELECT * FROM Localidad";
+    $query = "SELECT * FROM localidad";
     $result = mysqli_query($conn, $query);
 
     while ($valores = mysqli_fetch_array($result)) {
