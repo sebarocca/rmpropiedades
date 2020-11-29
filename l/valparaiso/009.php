@@ -3,7 +3,6 @@
 include("../../componentes/conexion.php");
 
 $sql= "SELECT Pr.id_propiedad, Pr.precio, Pr.id_post, Pr.cant_m2, Pr.cant_banos, Pr.cant_dormitorios, Pr.descripcion, Pr.url_foto1,Pr.url_foto2,Pr.url_foto3,Pr.url_foto4,Pr.url_foto5,Pr.url_foto6,Pr.url_foto7,Pr.url_foto8,Pr.url_foto9,Pr.url_foto10,Pr.url_foto11,Pr.url_foto12,Pr.url_foto13,Pr.url_foto14,Pr.url_foto15, Lo.nombre_localidad, Pr.url_detalle, Pr.url_detalle2, Vi.tipo_vivienda, Mo.tipo_moneda, Op.tipo_operacion, Po.contenido FROM propiedad Pr 
->>>>>>> cambiosphp
 
 INNER JOIN localidad Lo ON Pr.id_localidad = Lo.id_localidad 
 INNER JOIN vivienda Vi ON Pr.id_tipo_vivienda = Vi.id_tipo_vivienda 
